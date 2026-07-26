@@ -9,5 +9,5 @@
 - What this demonstrates — 
   1. multi-source log correlation
   2. IOC pivoting (IP → host → user)
-  3. basic DFIR workflow. 
-Limitations / next steps —  it's a synthetic dataset, and that a real investigation would need timestamp-window validation, chain-of-custody logging, etc. This shows you understand where the toy project ends and real DFIR begins — reviewers like seeing that self-awareness.
+  3. basic incident response workflow. 
+- Limitations / next steps —  the dataset was handmade, and that a real investigation would need timestamp-window validation, chain-of-custody logging, etc. And the script is built for a specific violation, for example if the employee was attempting a spear phishing attack.
