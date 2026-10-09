@@ -1,4 +1,4 @@
-# Incident-Response-Attribution-Sim
+# Incident-Response-script
 - Scenario — On April 19th, 2023 at 12:50PM an employee at Boring Office sent their an email to everyone within the company. This employee claims that someone else at the company is impersonating them, and now we need to find who the rogue user is.
 - Objective — correlating network layer (pcap/SMTP), DHCP lease logs, and Windows Security event logs to attribute a network action to a specific user account.
 - Tools — pyshark (tshark wrapper), plaintext DHCP/Security log parsing.
